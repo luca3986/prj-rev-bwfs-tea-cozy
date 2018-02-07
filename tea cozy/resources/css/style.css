@@ -1,0 +1,147 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+nav span{
+  display: inline-block;
+  padding: 0 10px;
+}
+h2, h4{
+  padding: 0;
+  margin: 10px 0;
+}
+/*Header*/
+
+header{
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  background-color: black;
+}
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+}
+header nav{
+  margin-right: 10px;
+}
+header nav a{
+  color: seashell;
+  text-decoration: underline;
+}
+/*Main Container*/
+
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  top: 70px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 20px;
+}
+
+/*Mission*/
+
+.mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.mission .title{
+  background-color: black;
+  width: 1200px;
+  height: auto;
+}
+
+/*Tea of the Month*/
+
+.tea-of-month .title{
+  width: 100%;
+  text-align: center;
+}
+.tea-of-month{
+  width: 1000px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.tea-selection{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.tea-month img{
+  width: 300px;
+  height: 200px;
+  padding-left: 15px;
+  margin: 15px 0 0 15px;
+}
+
+/*Locations*/
+
+.locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 500px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.locations h2{
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 15px;
+}
+.locationcontainer{
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+}
+.location{
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+}
+.location span{
+  display: block;
+  margin-bottom: 50px;
+}
+
+/*Footer*/
+
+footer{
+  position: relative;
+  top: 70px;
+  height: 200px;
+}
+footer h2{
+  margin-bottom: 50px;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
